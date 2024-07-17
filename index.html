@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="output.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="main-box">
+        <div class="navbar flex items-center justify-between px-[5vw] py-[3vh] fixed top-0 left-0 z-[99] w-full">
+       
+            <i class="ri-menu-line  text-[25px] cursor-pointer" id="menu" ></i> 
+            <div class=" absolute left-1/2 -translate-x-[50%]">
+              <img src="assets/Zara_Logo.png" alt="" class="w-[100px] cursor-pointer" />
+            </div>
+    
+            <ul class="first-ul flex cursor-pointer gap-[2.5vw] font-[600]">
+              <li>LOG IN</li>
+              <li>MEN</li>
+              <li>WOMEN</li>
+              <li>SHOPPING BAG</li>
+            </ul>
+          </div>
+    
+          <ul class="hide-ul flex flex-col absolute h-[100vh] w-[99.8vw] bg-transparent pt-[10px] gap-3 z-[99] -top-[100%] backdrop-blur-xl">
+            <div class="hide-ul-logo flex justify-center">
+                <i class="ri-close-linetext-[30px] absolute left-[5vw] top-6"  id="cross"></i>
+              <img src="assets/Zara_Logo.png" alt="" class="w-[120px]" />
+            </div>
+            <hr class="w-full border-[1px] border-black" />
+    
+    
+            <div class=" hidden-animate-ul flex flex-col h-[90vh] justify-between py-[5vh] ">
+              <ul class="flex gap-[18vw] pl-[8vw] pt-[2vw] cursor-pointer text-[18px]">
+                <ul class="flex flex-col gap-5 font-[600] text-xl"   >
+                  <li>Sale</li>
+                  <li>New Collections</li>
+                  <li>Zara Origin</li>
+                </ul>
+                <ul class="flex flex-col gap-5   font-[600] text-xl ">
+                  <li>Best Saller</li>
+                  <li>Linen</li>
+                  <li>Shirts</li>
+                </ul>
+                <ul class="flex flex-col gap-5   font-[600] text-xl ">
+                  <li>T-Shirts</li>
+                  <li>Polo Shirts</li>
+                  <li>Trousers</li>
+                </ul>
+                <ul class="flex flex-col gap-5  font-[600] text-xl  ">
+                  <li>Jeans</li>
+                  <li>Shorts</li>
+                </ul>
+              </ul>
+    
+              <div class="bottom flex justify-between px-[2vw]">
+                <img src="assets/zara-building.webp" alt=""
+                  class="ml-[4vw]  w-[500px] hover:scale-105 overflow-hidden duration-300"
+                />
+                <img src="assets/Zara_Logo.png" alt="" id="hide-zara-logo"
+                  class="w-[400px] hover:scale-105 overflow-hidden duration-300"
+                />
+              </div>
+            </div>
+          </ul>
+    
+    </div>
+   
+      <script src="script.js"></script>
+</body>
+</html>
